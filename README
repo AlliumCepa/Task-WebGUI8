@@ -1,0 +1,20 @@
+NAME
+    Task::WebGUI - Install WebGUI dependencies
+
+VERSION
+    version 1.101040
+
+DESCRIPTION
+    Run the following to install all WebGUI dependencies:
+
+     > cpanm Task::WebGUI
+
+AUTHOR
+      Patrick Donelan <pat@patspam.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2010 by Patrick Donelan.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
