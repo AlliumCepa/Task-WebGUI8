@@ -8,7 +8,7 @@
 # 
 package Task::WebGUI;
 BEGIN {
-  $Task::WebGUI::VERSION = '1.101040';
+  $Task::WebGUI::VERSION = '1.101060';
 }
 # ABSTRACT: Install WebGUI dependencies
 
@@ -23,13 +23,26 @@ Task::WebGUI - Install WebGUI dependencies
 
 =head1 VERSION
 
-version 1.101040
+version 1.101060
 
 =head1 DESCRIPTION
 
 Run the following to install all WebGUI dependencies:
 
  > cpanm Task::WebGUI
+
+If Image::Magick fails to install, you may need to download and install it manually
+ tar xvfz ImageMagick.tar.gz
+ cd ImageMagick-*
+ ./configure
+ make && make check && sudo make install
+ cd PerlMagick
+ perl Makefile.PL
+ make test && make install
+
+=head1 SEE ALSO
+
+http://webgui.org
 
 =head1 AUTHOR
 

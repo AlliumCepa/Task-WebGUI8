@@ -13,7 +13,7 @@
       "ExtUtils::MakeMaker" : "6.31",
       "Module::Build" : "0.3601"
    },
-   "generated_by" : "Dist::Zilla version 2.100922",
+   "generated_by" : "Dist::Zilla version 2.101040",
    "license" : "perl",
    "meta-spec" : {
       "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html",
@@ -80,8 +80,8 @@
       "POSIX" : "0",
       "Params::Validate" : "0.91",
       "Path::Class" : "0.16",
-      "Plack::Request" : "0.9929",
-      "Plack::Response" : "0.9929",
+      "Plack" : "0.9929",
+      "Plack::Middleware::Debug" : "0.07",
       "Pod::Coverage" : "0.19",
       "Readonly" : "1.03",
       "Scope::Guard" : "0.03",
@@ -105,6 +105,6 @@
    "resources" : {
       "repository" : "http://github.com/pdonelan/Task-WebGUI"
    },
-   "version" : "1.101040"
+   "version" : "1.101060"
 }
 

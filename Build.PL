@@ -28,15 +28,14 @@ my %module_build_args = (
                                        'HTTP::Headers' => '1.61',
                                        'File::Path' => '2.07',
                                        'Text::CSV_XS' => '0.64',
-                                       'Plack::Request' => '0.9929',
                                        'Test::Deep' => '0.095',
                                        'List::MoreUtils' => '0.22',
                                        'DBI' => '1.607',
                                        'Test::MockObject' => '1.02',
                                        'IO::Zlib' => '1.09',
                                        'Text::Aspell' => '0.01',
-                                       'Net::POP3' => '2.29',
                                        'Memcached::libmemcached' => '0.3102',
+                                       'Net::POP3' => '2.29',
                                        'Image::Magick' => '6.0',
                                        'DBD::mysql' => '4.010',
                                        'Path::Class' => '0.16',
@@ -52,7 +51,9 @@ my %module_build_args = (
                                        'Net::Subnets' => '0.21',
                                        'Moose' => '0.93',
                                        'POE::Component::Client::HTTP' => '0.88',
+                                       'Plack::Middleware::Debug' => '0.07',
                                        'namespace::autoclean' => '0.09',
+                                       'Plack' => '0.9929',
                                        'Archive::Any' => '0.0932',
                                        'Readonly' => '1.03',
                                        'Net::SMTP' => '2.31',
@@ -97,7 +98,6 @@ my %module_build_args = (
                                        'Business::Tax::VAT::Validation' => '0.20',
                                        'JavaScript::Minifier::XS' => '0.05',
                                        'Clone' => '0.31',
-                                       'Plack::Response' => '0.9929',
                                        'JSON' => '2.12'
                                      },
                        'recommends' => {},
@@ -105,7 +105,7 @@ my %module_build_args = (
                                                  'ExtUtils::MakeMaker' => '6.31',
                                                  'Module::Build' => '0.3601'
                                                },
-                       'dist_version' => '1.101040'
+                       'dist_version' => '1.101060'
                      );
 
 
