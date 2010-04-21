@@ -25,6 +25,7 @@
       "Archive::Any" : "0.0932",
       "Archive::Tar" : "1.44",
       "Archive::Zip" : "1.26",
+      "Business::PayPal::API" : "0.62",
       "Business::Tax::VAT::Validation" : "0.20",
       "CSS::Minifier::XS" : "0.03",
       "CSS::Packer" : "0.2",
@@ -38,6 +39,7 @@
       "DBD::mysql" : "4.010",
       "DBI" : "1.607",
       "DateTime" : "0.4501",
+      "DateTime::Event::ICal" : "0.10",
       "DateTime::Format::Mail" : "0.3001",
       "DateTime::Format::Strptime" : "1.0800",
       "Digest::MD5" : "2.38",
@@ -69,6 +71,7 @@
       "Memcached::libmemcached" : "0.3102",
       "Module::Find" : "0.06",
       "Moose" : "0.93",
+      "MooseX::NonMoose" : "0",
       "MooseX::Storage" : "0.23",
       "Net::LDAP" : "0.39",
       "Net::POP3" : "2.29",
@@ -82,6 +85,7 @@
       "Path::Class" : "0.16",
       "Plack" : "0.9929",
       "Plack::Middleware::Debug" : "0.07",
+      "Plack::Middleware::ForwardedHeaders" : "0",
       "Pod::Coverage" : "0.19",
       "Readonly" : "1.03",
       "Scope::Guard" : "0.03",
@@ -105,6 +109,6 @@
    "resources" : {
       "repository" : "http://github.com/pdonelan/Task-WebGUI"
    },
-   "version" : "1.101060"
+   "version" : "1.101110"
 }
 
