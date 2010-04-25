@@ -2,7 +2,7 @@ NAME
     Task::WebGUI - Install WebGUI dependencies
 
 VERSION
-    version 1.101110
+    version 1.101150
 
 DESCRIPTION
     This Task bundles up all WebGUI prerequisites (currently targeting the

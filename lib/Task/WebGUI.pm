@@ -8,7 +8,7 @@
 # 
 package Task::WebGUI;
 BEGIN {
-  $Task::WebGUI::VERSION = '1.101110';
+  $Task::WebGUI::VERSION = '1.101150';
 }
 
 # ABSTRACT: Install WebGUI dependencies
@@ -25,7 +25,7 @@ Task::WebGUI - Install WebGUI dependencies
 
 =head1 VERSION
 
-version 1.101110
+version 1.101150
 
 =head1 DESCRIPTION
 
