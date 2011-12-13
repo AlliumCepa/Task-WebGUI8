@@ -23,7 +23,7 @@ requires:
   Array::Compare: 2.01
   Authen::SASL: 2.12
   BSD::Resource: 1.2902
-  Business::PayPal::API::rel: 0.69
+  Business::PayPal::API: 0.69
   Business::Tax::VAT::Validation: 0.20
   CAM::PDF: 1.52
   CGI: 3.42
@@ -70,6 +70,7 @@ requires:
   Devel::GlobalDestruction: 0.02
   Devel::StackTrace: 1.20
   Devel::Symdump: 2.08
+  Devel::XRay: 0.95
   Digest::BubbleBabble: 0.01
   Digest::HMAC: 1.01
   Digest::MD5: 2.39
@@ -83,6 +84,7 @@ requires:
   File::MMagic: 1.27
   File::Path: 2.07
   File::Slurp: 9999.13
+  File::Spec: 3.29
   File::Temp: 0.21
   File::Which: 0.05
   Finance::Quote: 1.17
@@ -101,12 +103,10 @@ requires:
   HTML::Tree: 3.23
   HTTP::Response::Encoding: 0.05
   HTTP::Server::Simple: 0.44
-  IO::Compress::Base: 2.015
-  IO::Compress::Zlib: 2.015
   IO::Socket::SSL: 1.22
   IO::String: 1.08
+  IO::Stringy: 2.110
   IO::Zlib: 1.09
-  IO::stringy: 2.110
   IPC::Run: 0.82
   Image::ExifTool: 8.00
   JSON: 2.17
@@ -115,15 +115,15 @@ requires:
   JavaScript::Packer: 1.004
   LWP: 5.834
   LWPx::ParanoidAgent: 1.04
-  Linux::Smaps: 0.09
   List::MoreUtils: 0.22
+  List::Util: 1.19
   Locale::US: 1.2
   Locales: 0.19
   Log::Log4perl: 1.20
+  MIME::Tools: 5.427
   MIME::Types: 1.27
-  MIME::tools: 5.427
   MRO::Compat: 0.11
-  MailTools: 2.04
+  Mail::Mailer: 2.04
   Math::BigInt::FastCalc: 0.19
   Mixin::Linewise: 0.002
   Module::Build: 0.31012
@@ -148,16 +148,15 @@ requires:
   Params::Validate: 0.91
   Parse::RecDescent: 1.96.0
   Path::Class: 0.16
-  PathTools: 3.29
   Plack: 0.9985
   Pod::Coverage: 0.19
   Pod::Escapes: 1.04
   Pod::Simple: 3.10
+  Pod::Text: 2.2.2
   Proc::ProcessTable: 0.44
   Readonly: 1.03
   Regexp::RegGrp: 1.002
   SOAP::Lite: 0.710.08
-  Scalar::List::Utils: 1.19
   Scope::Guard: 0.03
   Set::Infinite: 0.63
   Spiffy: 0.30
@@ -168,7 +167,7 @@ requires:
   Sub::Name: 0.04
   Sub::Uplevel: 0.2002
   Task::Weaken: 1.03
-  Template::Toolkit: 2.22
+  Template: 2.22
   Test::Class: 0.31
   Test::Deep: 0.103
   Test::Exception: 0.27
@@ -184,7 +183,6 @@ requires:
   Test::Tester: 0.107
   Test::WWW::Mechanize: 1.24
   Test::Warn: 0.11
-  Text::Aspell: 0.09
   Text::Balanced: 2.02
   Text::CSV_XS: 0.69
   Text::Diff::HTML: 0.06
@@ -216,10 +214,8 @@ requires:
   XML::TreePP: 0.38
   YAML: 0.68
   common::sense: 3.4
-  podlators: 2.2.2
-  trace: 0.551
   version: 0.76
 resources:
   bugtracker: http://www.webgui.org/bugs
   repository: git://github.com/plainblack/wrebuild.git
-version: 0.0100
+version: 0.0101
