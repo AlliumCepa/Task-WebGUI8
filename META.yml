@@ -6,7 +6,7 @@ build_requires: {}
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300004, CPAN::Meta::Converter version 2.112150'
+generated_by: 'Dist::Zilla version 4.200006, CPAN::Meta::Converter version 2.110930'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -153,7 +153,6 @@ requires:
   Pod::Escapes: 1.04
   Pod::Simple: 3.10
   Pod::Text: 2.2.2
-  Proc::ProcessTable: 0.44
   Readonly: 1.03
   Regexp::RegGrp: 1.002
   SOAP::Lite: 0.710.08
@@ -218,4 +217,4 @@ requires:
 resources:
   bugtracker: http://www.webgui.org/bugs
   repository: git://github.com/plainblack/wrebuild.git
-version: 0.0101
+version: 0.0102
