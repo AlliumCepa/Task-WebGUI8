@@ -222,7 +222,7 @@ my %WriteMakefileArgs = (
     'common::sense' => '3.4',
     'version' => '0.76'
   },
-  'VERSION' => '0.0102',
+  'VERSION' => '2.0000',
   'test' => {
     'TESTS' => 't/*.t'
   }

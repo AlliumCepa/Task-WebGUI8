@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::WebGUI;
 BEGIN {
-  $Task::WebGUI::VERSION = '0.0102';
+  $Task::WebGUI::VERSION = '2.0000';
 }
 
 1;
@@ -13,7 +13,7 @@ Task::WebGUI - Get all the prereqs for WebGUI
 
 =head1 VERSION
 
-version 0.0102
+version 2.0000
 
 =head1 SYNOPSIS
 

@@ -217,4 +217,4 @@ requires:
 resources:
   bugtracker: http://www.webgui.org/bugs
   repository: git://github.com/plainblack/wrebuild.git
-version: 0.0102
+version: 2.0000
