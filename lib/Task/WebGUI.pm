@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 package Task::WebGUI;
-BEGIN {
+{
   $Task::WebGUI::VERSION = '2.0000';
 }
 
