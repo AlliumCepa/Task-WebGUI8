@@ -162,7 +162,7 @@ my %WriteMakefileArgs = (
     "common::sense" => "3.4",
     "namespace::autoclean" => "0.09"
   },
-  "VERSION" => "2.0000",
+  VERSION_FROM      => 'lib/Task/WebGUI8.pm',
   "test" => {
     "TESTS" => "t/*.t"
   }
